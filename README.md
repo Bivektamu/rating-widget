@@ -1,4 +1,4 @@
-# DNA-FED-CODING-CHALLENGE
+# RATING-WIDGET-CODING-CHALLENGE
 
 This project is a coding challenge for interviewing process organized by giveeasy. Huge thanks to Alex Jarkey for organizing this challenge.
 This project is created using React Js library, HTML5, CSS 3, JavaScript, ES6, styled component and git. Thank you for your time in reviewing these code and organizing the test 🙂.
