@@ -2,17 +2,16 @@ import React, { useState } from 'react'
 import { FaStar, FaCheckCircle } from 'react-icons/fa'
 import styled from 'styled-components';
 
-const RatingWidget = ({ title }) => {
+const RatingWidget = ({ title, stars }) => {
 
     const [rating, setRating] = useState(null);
     const [hoverRating, setHoverRating] = useState(null);
-
     return (
         <Wrapper>
             <WidgetTitle>{title}</WidgetTitle>
 
 
-            {[...Array(5)].map((item, i) => {
+            {[...Array(stars)].map((item, i) => {
                 const ratingValue = i + 1;
                 return (
                     <StarIcon key={ratingValue}>
