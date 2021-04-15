@@ -84,10 +84,12 @@ export default App;
 const FormWidget = styled.form`
   display:block;
   width:500px;
+  max-width: calc(100% - 30px);
   margin: 50px auto;
   * {
     display:block;
     width:100%;
+    box-sizing: border-box;
   }
   input {
     margin:10px 0 40px;
